@@ -1,0 +1,99 @@
+.titulo-derecho {
+  font-family: 'Comic Neue', cursive;
+  font-size: 5rem;
+  margin-left: 50%;
+  margin-top: 60px;
+}
+.titulo-izquierdo {
+  font-family: 'Comic Neue', cursive;
+    font-size: 5rem;
+    margin-right: 50%;
+    margin-top: 60px;
+  }
+.texto-izquierdo {
+    margin-left: 20px;
+}
+.texto-descripcion {
+  font-size:23px;
+}
+.navbar{
+  position: fixed;
+  width: 100%;
+    padding: 0.5rem;
+    background-color: red;
+}
+.nav-link{
+  color:white;
+  margin-right: auto;
+}
+.nav-item:hover{
+  font-size: 20px;
+  transition: all 0.3s ease-in-out;
+}
+.section{
+  display: flex;
+padding: 0px;  
+}
+.navbar-collapse {
+    align-items: center;
+    justify-content: space-between;
+}
+.imagenes-izquierda {
+  width: 60%;
+  margin-top: 1%;
+  margin-left: 10rem;
+  margin-bottom: 5rem;
+}
+.imagenes-derecha {
+    width: 60%;
+    margin-top: 1%;
+    margin-right: 10rem;
+  margin-left: 10rem;
+    margin-bottom: 5rem;;
+  }
+
+
+@media screen and (max-width: 766px) {  
+  .navbar-brand {
+    display:none
+  }
+  .texto-izquierdo{
+    text-align:center;
+  }
+.navbar{
+  width: 100%;  
+  padding: 0px; 
+}
+.imagenes-izquierda {
+  width: 30%;
+  margin-top: 1%;
+  margin-left: 10rem;
+  margin-bottom: 5rem;
+}
+.imagenes-derecha {
+  width: 30%;
+  margin-top: 1%;
+  margin-right: 10rem;
+margin-left: 10rem;
+  margin-bottom: 5rem;;
+}
+.texto-descripcion {
+  font-size:13px;
+}
+.titulo-derecho {
+  font-family: 'Comic Neue', cursive;
+  font-size: 2rem;
+  margin-left: -200px;
+  margin-top: 50px;
+}
+.titulo-izquierdo {
+  font-family: 'Comic Neue', cursive;
+    font-size: 2rem;
+    margin-left: 200px;
+    margin-top: 50px;
+  }
+
+}
+@media screen and (max-width: 1810px) {
+ 
+}
